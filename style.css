@@ -28,11 +28,6 @@
     height: 8vh;
   }
   
-  main {
-    background: url("bg.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-  }
   
   .nav-list {
     list-style: none;
@@ -110,7 +105,7 @@
     transform: rotate(45deg) translate(-5px, -7px);
   }
 
-/*fim do header */
+/*-------------------*fim do header *-------------------*/
 
 body{
   background-color: black;
@@ -133,22 +128,57 @@ main{
 .ola p{
     font-family: system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
     font-size: 30px;
-    margin-left: 45px;
+    margin-left: 85px;
+    
 }
 .ola h2{
     font-family: system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
     font-size: 20px;
+    margin-left: 65px;
     
 }
 
 .ola a{
     font-family: system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
-    margin-left: 45px;
+    margin-left: 85px;
 }
 
 h1{
     font-family: system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
-    font-size: 70px;
+    font-size: 90px;
 }
 
+.data{
+  margin-top: 150px;
+  font-family: system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+}
+
+#data-dia{ 
+  font-size: 70px;
+  font-weight: lighter;
+  margin-left: 80px;
+}
+
+#data-mes{
+  margin-left: 90px;
+}
+
+.data p{
+  margin-left: 55px;
+}
+
+.data h4{
+  margin-left: 20px;
+}
+
+.sobre{
+  color: #fff;
+  font-family: system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
 
