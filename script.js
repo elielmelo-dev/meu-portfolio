@@ -43,4 +43,15 @@ class MobileNavbar {
   );
   mobileNavbar.init();
 
-/*Fim do Header */
+/*------------*Fim do Header ----------------------------------*/
+
+/*------------------calendario-------------------------------- */
+const dayNumber = new Date().getDate();
+const monthName = new Date().toLocaleString("default", {month: "long"});
+
+document.querySelector(".data-dia").innerHTML = dayNumber;
+document.querySelector(".data-mes").innerHTML = monthName;
+
+/*------------------Fim calendario-------------------------------- */
+
+
