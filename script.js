@@ -56,11 +56,11 @@ document.querySelector(".data-mes").innerHTML = monthName;
 
 /*-----------------------Scroll---------------------------- */
 
-const menuLinks = document.querySelectorAll('#logo-nav, #sobre-nav, #habilidade-nav, #projeto-nav, #contato-nav');
+const menuLinks = document.querySelectorAll('.nav-list a[href^="#"]');
 
 function getDistanceFromTheTop(element) {
-  const id = element.getAttribute("id");
-  return document.querySelector(`#${id}`).offsetTop;
+  const id = element.getAttribute("href");
+  return document.querySelector(id).offsetTop;
 }
 
 
