@@ -56,7 +56,7 @@ document.querySelector(".data-mes").innerHTML = monthName;
 
 /*-----------------------Scroll---------------------------- */
 
-const menuLinks = document.querySelectorAll(' .nav-list li a');
+const menuLinks = document.querySelectorAll('#logo-nav, #sobre-nav, #habilidade-nav, #projeto-nav, #contato-nav');
 
 function getDistanceFromTheTop(element) {
   const id = element.getAttribute("href");
