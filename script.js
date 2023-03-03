@@ -59,8 +59,8 @@ document.querySelector(".data-mes").innerHTML = monthName;
 const menuLinks = document.querySelectorAll('#logo-nav, #sobre-nav, #habilidade-nav, #projeto-nav, #contato-nav');
 
 function getDistanceFromTheTop(element) {
-  const id = element.getAttribute("href");
-  return document.querySelector(id).offsetTop;
+  const id = element.getAttribute("id");
+  return document.querySelector(`#${id}`).offsetTop;
 }
 
 
